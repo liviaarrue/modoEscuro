@@ -21,16 +21,24 @@
     }
     
     @keyframes princip {
-    0% {
-    color: rgba(225, 0, 0, 0);
+    5% {
+    color: rgb(172, 0, 0);
     
     }
     25% {
-    color: rgb(220, 50, 0)
+    color: rgb(229, 96, 8)
     }
     
     50% {
-    color: rgb(25, 50, 25);
+    color: rgb(55, 181, 55);
+    }
+
+    75%{
+      color: rgb(38, 145, 207);
+    }
+
+    95%{
+      color:rgb(13, 13, 170)
     }
 
 
@@ -49,10 +57,16 @@
    color: white;
    .nomeinf{
       color: white;
+     #modo{
+    color: white;
+    background-color: black;
+   }
    }
  }
 
  button{
    font-size: 13px;
+     border: hidden;
    background-color: rgb(199, 198, 198);
+
  }
